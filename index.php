@@ -21,9 +21,16 @@
             <div class="mainBody">
                 <p>
                     <?php 
-                        $name= false;
+                        //$myArray = array(123456, "Programming School BD", "PHP");
                        // echo $name;
-                       var_dump($name)
+                       class myclass {
+                            function testFunction () {
+                                echo "I am Learning PHP Programming Bangla";
+                            }
+                       }
+                       $newOBJ = new myclass;
+                       
+                       var_dump($newOBJ)
                     ?>
                 </p>
             </div>
